@@ -10,6 +10,7 @@ def do_pack():
     folder of my AirBnB Clone repo
     """
 
+
     try:
         # Create the versions folder if it doesn't exist
         local("mkdir -p versions")
