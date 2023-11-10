@@ -5,11 +5,11 @@ import os
 
 def do_pack():
     """
-    Generates a .tgz archive from the contents of the web_static folder.
-
-Returns:
-        Archive path if successful, None otherwise.
+    A Fabric script that generates a .tgz archive from
+    the contents of the web_static folder
+    folder of my AirBnB Clone repo
     """
+
     try:
         # Create the versions folder if it doesn't exist
         local("mkdir -p versions")
